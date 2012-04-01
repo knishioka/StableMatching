@@ -1,4 +1,4 @@
-load 'stable_matching.rb'
+require_relative 'stable_matching'
 
 describe GaleShapleyMatching, "GS-algorithm" do
   it "returns stable matching" do
